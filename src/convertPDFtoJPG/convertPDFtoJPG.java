@@ -37,6 +37,7 @@ public class convertPDFtoJPG {
     public static oracle.sql.ARRAY PDFSorter(String filein, String fileout) throws IOException, SQLException {
         //Connection con = DriverManager.getConnection(url, username_db, password);
         //New String for Get Test
+        //asd
         Properties prp = new Properties();
         prp.setProperty("user", "SYS as SYSDBA");
         prp.setProperty("password", "g7YC5d#k");
