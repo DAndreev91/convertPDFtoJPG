@@ -28,7 +28,7 @@ import org.apache.pdfbox.util.ImageIOUtil;
 public class convertPDFtoJPG {
 
     final private static String driverName = "oracle.jdbc.OracleDriver";
-    private static final String url = "jdbc:oracle:thin:@131.108.39.3:1521:reg";
+    private static final String url = "jdbc:oracle:thin:@*.*.*.*:1521:*";
     private static final String password = "n#Fp7691";
     private static final String username_db = "ADMIN";
     private static oracle.sql.ARRAY vReturnArray;
