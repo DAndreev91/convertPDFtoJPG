@@ -29,8 +29,8 @@ public class convertPDFtoJPG {
 
     final private static String driverName = "oracle.jdbc.OracleDriver";
     private static final String url = "jdbc:oracle:thin:@*.*.*.*:1521:*";
-    private static final String password = "n#Fp7691";
-    private static final String username_db = "ADMIN";
+    private static final String password = "***";
+    private static final String username_db = "***";
     private static oracle.sql.ARRAY vReturnArray;
          
     
@@ -40,7 +40,7 @@ public class convertPDFtoJPG {
         //asd123
         Properties prp = new Properties();
         prp.setProperty("user", "SYS as SYSDBA");
-        prp.setProperty("password", "g7YC5d#k");
+        prp.setProperty("password", "***");
         Connection con = new OracleDriver().connect(url, prp);
         ArrayDescriptor descr = new ArrayDescriptor("VARR",con);
         String clear_name = null;
